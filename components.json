@@ -1,0 +1,6 @@
+{
+  "aa": "./src/demo/aa/index.js",
+  "bb": "./src/demo/bb/index.js",
+  "cc": "./src/demo/cc/index.js",
+  "dd": "./src/demo/dd/index.js"
+}
