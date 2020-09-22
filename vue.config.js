@@ -21,6 +21,7 @@ module.exports = {
     }
     // 添加别名
     config.resolve.alias
+      .set("lib", resolve("lib"))
       .set("public", resolve("public"));
   }
 };

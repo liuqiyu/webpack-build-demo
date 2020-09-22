@@ -1,0 +1,4 @@
+static/js/*.js
+src/utils/keycloak.js
+src/router/index.js
+lib/demo.common.js

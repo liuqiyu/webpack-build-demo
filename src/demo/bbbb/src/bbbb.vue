@@ -1,18 +1,18 @@
 <template>
-  <div class="aa">aa</div>
+  <div class="bbbb">bbbb</div>
 </template>
 
 <script>
 export default {
-  name: 'aa',
+  name: 'bbbb',
   mounted () {
-    console.log('aa')
+    console.log('bbbb')
   }
 }
 </script>
 
 <style scope>
-.aa {
-  color: red;
+.bbbb {
+  color: yellow;
 }
 </style>

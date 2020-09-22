@@ -1,29 +1,13 @@
 import Vue from 'vue'
 import App from './App.vue'
-
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
 Vue.config.productionTip = false
+Vue.use(ElementUI);
 
-import { aa, bb } from 'asp-demo-ui'
+import AspDemoUi from 'asp-demo-ui'
 
-Vue.use(aa)
-Vue.use(bb)
-
-
-// import {
-//   Input
-// } from 'public/lib/element-ui.common.js'
-// Vue.use(Input);
-
-// import aaaa from 'element-ui'
-// Vue.use(aaaa);
-
-// import { Button, Select } from 'element-ui';
-
-// Vue.use(Button)
-// Vue.use(Select)
-
-// Vue.component(aa.name, aa);
-// Vue.component(bb.name, bb);
+Vue.use(AspDemoUi);
 
 new Vue({
   render: h => h(App),

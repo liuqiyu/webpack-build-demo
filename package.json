@@ -1,6 +1,6 @@
 {
   "name": "asp-demo-ui",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "main": "lib/demo.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -8,11 +8,15 @@
     "lint": "vue-cli-service lint",
     "conf": "webpack --config webpack.conf.js",
     "common": "webpack --config webpack.common.js",
-    "component": "webpack --config webpack.component.js"
+    "component": "webpack --config webpack.component.js",
+    "dist": "npm run common && npm run component"
   },
   "dependencies": {
-    "asp-demo-ui": "^0.1.2",
+    "asp-demo-ui": "^0.1.4",
+    "asp-s-l": "^1.1.4",
     "core-js": "^3.6.5",
+    "element-china-area-data": "^5.0.1",
+    "vant": "^2.10.3",
     "vue": "^2.6.11"
   },
   "devDependencies": {

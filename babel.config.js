@@ -6,7 +6,7 @@ module.exports = {
     [
       'component',
       {
-        'libraryName': 'asp-demo-ui',
+        'libraryName': 'asp-s-l',
         style: false,
         // 'styleLibraryName': 'theme-chalk'
       }
